@@ -15,6 +15,7 @@ const CONFIG = {
     BASE_URL: process.env.API_BASE_URL,
     PORT: process.env.NODE_ENV === "test" ? 8888 : process.env.PORT || 8080,
     ENV: process.env.NODE_ENV,
+    MONGODB_URI: process.env.MONGODB_URI,
   },
   SERVER: {
     TIMEOUT: 60000, // 1m

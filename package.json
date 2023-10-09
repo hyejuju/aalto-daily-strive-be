@@ -1,6 +1,6 @@
 {
   "name": "tenstack-starter",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Typescript Node Express Rest API server starter",
   "private": true,
   "authors": "filoscoder",
@@ -45,6 +45,7 @@
     "http-status": "^1.7.0",
     "jsonwebtoken": "^9.0.2",
     "lodash-es": "^4.17.21",
+    "mongoose": "^7.6.0",
     "morgan": "^1.8.2",
     "pino-pretty": "^9.4.0",
     "rimraf": "^3.0.2"
